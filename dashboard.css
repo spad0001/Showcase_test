@@ -1,0 +1,114 @@
+body {
+    font-family: 'nunito';
+    background-color: white;
+    line-height: 1.4;
+    width: 100%;
+    font-size: 1vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    width: 100px;
+    padding: 25px 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    filter: brightness(150%);
+    filter: drop-shadow(8px 8px 10px white);
+}
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 19px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+
+    z-index:5;
+}
+
+
+.table {
+    border: solid 1px black;
+    border-collapse: collapse;
+    font: 20px nunito;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.table thead {
+    background-color: black;
+    border: solid 5px white;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+.progress-bar {
+    position: relative;
+    width: 60%;
+    height: 50px;
+    background: #333;
+    border-radius: 5px;
+    color: mediumpurple;
+    margin-top: 2%;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.progress-complete {
+    width: 0%;
+    height: 100%;
+    background-color: aqua;
+    transition: all 0.2s;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+
+.progress-words {
+    top: 0;
+    right: 10px;
+    color: red;
+    font: bold 150% "nunito", sans-serif;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
