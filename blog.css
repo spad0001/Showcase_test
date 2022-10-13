@@ -3,7 +3,7 @@
 body {
          font-family: 'nunito', serif;
          color: white;
-         background-color: black;
+         background-color: #28282B;
          line-height: 1.4;
          width: 100%;
          font-size: 1vw;
@@ -24,7 +24,6 @@ h1 {
     align-items: center;
     background-color: black;
     opacity: 0.7;
-
     z-index:5;
 }
 
@@ -42,20 +41,38 @@ a:hover {
     filter: drop-shadow(8px 8px 10px white);
 }
 
-.blog {
-    max-width: 500px;
-    margin: 20px auto;
-}
 
-.blog-item {
-    margin-bottom: 5px;
-    border: 3px solid #FFFFFF;
-}
-
-.blog-question {
-    display: block;
-    padding: 10px 15px;
-    position: relative;
-    font-size: 1.2em;
-    color: #FFFFFF;
-}
+.card {
+    display: flex;
+    margin: 135px;
+    flex-direction: column;
+  
+  }
+  
+  Section {
+    background: rgb(230, 255, 255, 0.1);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+  
+  }
+  
+  
+  Section header {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 20px;
+  }
+  
+  #image {
+    width: 375px;
+    margin-top: 5rem;
+  }
+  
+  
+  .card:hover {
+    background: rgb(230, 255, 255, 0.2);
+  }
+  

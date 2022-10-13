@@ -16,6 +16,8 @@ a:hover {
 
 }
 
+
+
 #header-profile {
   position: fixed;
   top: 0;
@@ -42,16 +44,21 @@ a:hover {
 body {
   font-family: 'nunito', serif;
   color: white;
-  background-color: black;
+  background-color: #28282B;
   line-height: 1.4;
   width: 100%;
   display: flex;
 }
 
+/* decreased the width, height and increased the font-size */
+
 #navbar {
-  height: 100%;
-  min-width: 400px;
-  width: 300px;
+  height: 85%;
+  min-width: 370px;
+  width: 370px;
+
+  position: fixed;
+
 
   top: 0px;
   left: 0px;
@@ -62,19 +69,21 @@ body {
   z-index: 3;
   white-space: pre;
   margin-right: 50px;
+
 }
 
 #navbar header {
   color: black;
-  margin: 10px;
   text-align: center;
   font-size: 1.8em;
+  margin: 10px 10px -100px;
 }
 
 #navbar li {
   list-style: none;
-  padding: 5px 0px;
+  padding: 3px 0px;
   width: 100%;
+  font-size: 18px;
 }
 
 
@@ -116,7 +125,49 @@ Section header {
   margin-top: 5rem;
 }
 
+.cardsWrapper {
+  left: 400px;
+  position: absolute;
+}
 
-.card:hover {
-  background: rgb(230, 255, 255, 0.2);
+#feedback {
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  margin: 135px;
+  flex-direction: column;
+}
+
+#feedback_p {
+  font-size: 3vw;
+}
+
+#text {
+  display: block;
+  width: 350px;
+  height: 40px;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 20px;
+}
+
+#submit {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+
 h1 {
     margin: 50px 0 30px;
     text-align: center;
@@ -7,7 +10,7 @@ h1 {
 body {
     font-family: 'nunito', serif;
     color: white;
-    background-color: black;
+    background-color: #28282B;
     line-height: 1.4;
     width: 100%;
     font-size: 1vw;

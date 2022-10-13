@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+
 body {
     font-family: 'nunito';
-    background-color: white;
+    background-color: #28282B;
     line-height: 1.4;
     width: 100%;
     font-size: 1vw;
@@ -23,6 +26,7 @@ a:hover {
 h1 {
     margin: 50px 0 30px;
     text-align: center;
+    color: white;
 }
 
 header {
@@ -52,27 +56,30 @@ header {
 
 }
 
+/*change the head to bg color to black and the borders colors to blue */
+
 .table thead {
-    background-color: black;
-    border: solid 5px white;
+    background-color: #28282B;
+    border: solid 5px #1576bb;
     color: white;
     padding: 10px;
     text-align: left;
     text-shadow: 1px 1px 1px #fff;
 }
-
+/* changed the color of the letters to white */
 .table tbody td {
-    border: solid 1px #DDEEEE;
+    border: solid 1px #1576bb;
     color: #333;
     padding: 10px;
     text-shadow: 1px 1px 1px #FFF;
+    color: white;
 }
 
 .progress-bar {
     position: relative;
     width: 60%;
     height: 50px;
-    background: #333;
+    background: black;
     border-radius: 5px;
     color: mediumpurple;
     margin-top: 2%;

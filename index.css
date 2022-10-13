@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+
 body {
     font-family: 'nunito';
     color: white;
-    background-color: black;
+    background-color: #28282B;
     line-height: 1.4;
     width: 100%;
     font-size: 1vw;
@@ -27,7 +30,7 @@ header {
     align-items: center;
     background-color: black;
     opacity: 0.7;
-
+  
     z-index:5;
 }
 
@@ -76,7 +79,6 @@ h1 {
 }
 
 #feedback {
-    background-color: black;
     width: 100%;
     overflow: hidden;
 }
